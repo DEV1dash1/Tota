@@ -57,11 +57,11 @@ import numpy
 import sympy
 import urllib.request
 
-api_key = "0c2dc79d8c59155c1ca6b5676fde24e7"
+api_key = "type urs"
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 googlenews = GoogleNews()    
 client = discord.Client()
-TOKEN = "OTIxNjgxMzM1NzA0MjQ0MjQ0.Yb2cog.UoFJaOuLiPjUMWH2otj9gzSqLaM"
+TOKEN = "enter ur token"
  
 bot = commands.Bot(command_prefix="-",intents=discord.Intents.all())
 slash = SlashCommand(bot)
